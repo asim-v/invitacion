@@ -1,0 +1,37 @@
+body {
+  margin:0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+canvas {
+  position: absolute;
+  height: 100vh;
+  z-index: -2;
+  filter: blur(2px) brightness(0.4);
+}
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+.center { 
+  top: 0;
+  height: 50vh;
+  position: initial;
+  border: 3px solid green; 
+}
+
+.center p {
+font-family: 'Sawarabi Mincho', sans-serif;
+
+  margin: 0;
+  position: absolute;
+  transition: 0.4s;
+  color: white;
+  opacity: 1;
+  font-size: 80px;
+  width: 80%;
+  top: 25%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
