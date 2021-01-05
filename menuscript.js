@@ -34,11 +34,11 @@ new Vue({
       }
       
       // get the scale of the SVG compared to the window size
-      var scale = 300 / d('svg').getBoundingClientRect().width;
+      var scale = 100 / d('svg').getBoundingClientRect().width;
       var boundingBox = d('.author', val).getBoundingClientRect();
       // calculate number of pixels to move author name
       // (places name so that it right-aligns with center line)
-      var xPx = 140 - boundingBox.width * scale;
+      var xPx = 50 - boundingBox.width * scale;
       var yPx = -boundingBox.height * this.selectedIndex * scale;
       d('.author', val).style.transform = `translate(${xPx}px, ${yPx}px)`;
       d('.author', val).classList.add('selected');

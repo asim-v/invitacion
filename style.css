@@ -13,11 +13,12 @@ canvas {
 @import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
 .center { 
   top: 0;
   height: 50vh;
   position: initial;
-  border: 3px solid green; 
+  /*border: 3px solid green; */
 }
 
 .center p {
